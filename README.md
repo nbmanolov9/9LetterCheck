@@ -1,22 +1,12 @@
 TASK Requirements:
-I. Да се намерят всички 9 буквени думи в английския език, за които за всяка една дума от 
-решението, е вярно следното:
-- възможно е да се премахне една буква от думата и да се получи валидна 8 буквена дума;
-- от 8 буквената дума може да се премахне една буква и да се получи валидна 7 буквена дума;
-- от 7 буквената дума може да се премахне една буква и да се получи валидна 6 буквена дума и
-т.н., докато се получи еднобуквена валидна дума;
-- валидните еднобуквени думи са „I“ и „A“
-Може да видите пример за думата „STARTLING“ от тук: https://www.republicworld.com/whatsappquizzes-and-puzzles/riddles/what-9-letter-word-is-still-a-word-after-removing-one-letter-each-time.html
-Обобщение: да се намерят всички валидни 9 буквени думи, които могат да бъдат доведени до 
-еднобуквени, чрез поетапно премахване на една буква, като след всяко премахване ще получим 
-наново валидна дума.
-II. Задачата трябва да е оптимизирана за скорост. Ако една дума е валидна при една комбинация 
-от премахване на букви, не е нужно да се проверява дали би била валидна, ако премахнем 
-други букви. 
-Списък с всички думи в английския език може да сe ползва от тук:
-https://raw.githubusercontent.com/nikiiv/JavaCodingTestOne/master/scrabble-words.txt
+I. Requirements: Find all 9 letter words in the English language for which, for each word in the solution, the following is true:
 
-Program inside has:
+it is possible to drop one letter from the word and get a valid 8 letter word;
+from the 8-letter word one letter can be subtracted and a valid 7-letter word is obtained;
+from the 7-letter word one letter can be subtracted and a valid 6-letter word is obtained, etc., until a one-letter valid word is obtained;
+valid one letter words are "I" and "A" You can see an example of the word "STARTLING" from here: https://www.republicworld.com/whatsapp�quizzes-and-puzzles/riddles/what-9-letter-word -is-still-a-word-after-removing-one-letter-each-time.html Summary: to find all valid 9 letter words that can be reduced to one letter by removing one letter each time, like the following each removal we will get a new valid word. II. The task must be optimized for speed. If a word is valid under one combination of letter removal, there is no need to check whether it is valid if we reduce the other letters. The list of all English words can be used from here: https://raw.githubusercontent.com/nikiiv/JavaCodingTestOne/master/scrabble-words.txt
+
+The Java Program inside contains:
 1.Main Method:
 
 The main method serves as the entry point of the program.
